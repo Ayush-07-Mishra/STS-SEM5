@@ -9,7 +9,7 @@ public class blockswap {
             end--;
         }
     }
-
+    
     public static void swapblock(int arr[],int d,int n){
         reverseArray(arr,0,d-1);
         reverseArray(arr,d,n-1);

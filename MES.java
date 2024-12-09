@@ -1,5 +1,5 @@
 public class MES {
-
+    
     public static int getMaxEquilibriumSumOptimized(int[] arr) {
         int totalSum = 0;
         int leftSum = 0;

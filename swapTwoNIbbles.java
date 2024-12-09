@@ -14,6 +14,5 @@ public class swapTwoNIbbles {
         System.out.println("enter  ; ");
         byte Swap = SwapByte(b);
         System.out.println(Integer.toBinaryString(Swap & 0xFF));
-
     }
 }
