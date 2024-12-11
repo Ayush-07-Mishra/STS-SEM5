@@ -14,7 +14,7 @@ class HelloWorld {
                 }
             }
         }
-    
+        
         for(int i =l;i<n;i++){
             if(prime[i] == true){
                 System.out.print(i+" ");

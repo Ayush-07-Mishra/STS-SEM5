@@ -23,7 +23,7 @@ public class Karatsuba {
         int ac = karatsuba(a, c);
         int bd = karatsuba(b, d);
         int adbc = karatsuba(a + b, c + d) - ac - bd;
-
+        
         // Return the result using the Karatsuba formula
         return (int) (ac * Math.pow(10, 2 * m) + adbc * Math.pow(10, m) + bd);
     }

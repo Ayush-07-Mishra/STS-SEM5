@@ -1,14 +1,21 @@
 import java.util.*;
 
 public class Euclids{
-    public static int gcd(int a,int b){ //a>b
+    // public static int gcd(int a,int b){
+    //     if(a == 0){
+    //         return b;
+    //     }else{
+    //         return gcd(b%a,a);
+    //     }
+    // }
+    
+    public static int gcd(int a,int b){
         if(a == 0){
             return b;
         }else{
             return gcd(b%a,a);
         }
     }
-    
     public static void main(String[] Args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter two numbers : ");

@@ -9,7 +9,6 @@ public class MES {
         for (int i = 0; i < arr.length; i++) {
             totalSum += arr[i];
         }
-
         // Traverse the array to check for equilibrium points
         for (int i = 0; i < arr.length; i++) {
             totalSum -= arr[i];  // Update totalSum to represent the right sum
@@ -18,7 +17,6 @@ public class MES {
             if (leftSum == totalSum && leftSum > maxSum) {
                 maxSum = leftSum;
             }
-
             // Update leftSum by adding the current element
             leftSum += arr[i];
         }
